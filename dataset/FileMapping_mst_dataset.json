@@ -1,0 +1,39 @@
+{
+	"name": "FileMapping_mst_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseLinkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "TableName",
+				"type": "varchar"
+			},
+			{
+				"name": "FileNamePrefix",
+				"type": "varchar"
+			},
+			{
+				"name": "Path",
+				"type": "varchar"
+			},
+			{
+				"name": "Active",
+				"type": "bit"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "FileMapping_mst"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "rakshithadatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9a8a1af7-ec28-4061-bd81-461feab7779a",
+		"tenantId": "cc876379-1061-49ab-964b-7e5d840d62a1"
+	}
+}
