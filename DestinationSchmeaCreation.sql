@@ -71,3 +71,5 @@ INSERT [dbo].[FileMapping_mst] ([ID], [TableName], [FileNamePrefix], [Path], [Ac
 GO
 
 select * from dbo.FileMapping_mst 
+
+/****** source video https://www.youtube.com/watch?v=FdT1CmeXhpo&list=PLUYdS0azaz10Zfvyzor_9j-kdw7LbTaC7&index=4&t=133s ******/
